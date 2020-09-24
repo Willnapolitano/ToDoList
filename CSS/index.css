@@ -1,4 +1,7 @@
 *{margin:0;padding:0;}
+document{
+
+}
 
 header{
     display: flex;
@@ -52,8 +55,14 @@ input#button1:hover{
     width: 1700px;
 }
 
-.txt2{
+#txt2{
+    display: flex;
+    flex-direction: column;
     border: 1px solid Black;
     width: 1000px;
     min-height: 500px;
+}
+
+#item{
+    margin: 10px;
 }
