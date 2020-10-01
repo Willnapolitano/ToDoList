@@ -63,7 +63,7 @@ input#button1:hover{
     border: 1px solid Black;
     border-radius: 10%;
     width: 1200px;
-    min-height: 600px;
+    min-height: 500px;
     padding: 50px;
 
 }
