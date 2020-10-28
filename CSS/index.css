@@ -12,7 +12,7 @@ header{
 
 footer{
     position: relative;
-    top: 730px;
+    top: 85px;
     left: 44.5%;
     background: #1d1d1e;
     color: White;
@@ -68,8 +68,10 @@ input#button1:hover{
 
 }
 
+
 #itens{
     margin: 5px;
+    display: flex;
 }
 
 input[type=checkbox]{
@@ -97,6 +99,7 @@ label::before{
     left: 0;
     top: 3px;
     margin-right: 5px;
+    border-radius: 10px;
 }
 
 label::after{
@@ -106,6 +109,7 @@ label::after{
     border: solid 1px #1d1d1e;
     display: inline-block;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 label::after{
@@ -121,3 +125,11 @@ input:checked + label{
     text-decoration: line-through;
 }
 
+img{
+    position: relative;
+    cursor: pointer;
+    margin-left: 10px;
+    top: 8px;
+    width: 20px;
+    height: 20px;
+}
